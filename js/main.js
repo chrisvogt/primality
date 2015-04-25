@@ -26,4 +26,6 @@ function handleClick() {
         $(this).addClass( "false animated shake" );
     }
 }
-buildTable(0, 50);
+
+var midpoint = Math.ceil(Math.random() * (999 - 100 + 1) + 100);
+buildTable(midpoint - 50, midpoint + 50);
