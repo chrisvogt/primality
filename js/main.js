@@ -15,4 +15,9 @@ function buildTable(floor, ceiling) {
         container.appendChild(content);
     }
 }
+function handleClick(num) {
+    // if num is prime
+    // add the 'prime' class
+    // if not, darken and shake the element
+}
 buildTable(0, 50);
