@@ -10,7 +10,7 @@ function buildTable(floor, ceiling) {
     for (var i = floor; i < ceiling; i++) {
         var container = document.getElementById("num-table");
         var content = document.createElement("div");
-        content.setAttribute('class', 'col-mb-2 col-3 col-dt-3 card animated zoomIn');
+        content.setAttribute('class', 'col-mb-2 col-3 col-dt-3 card');
         content.innerHTML = '<p>' + i + '</p>';
         container.appendChild(content);
     }
