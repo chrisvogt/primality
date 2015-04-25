@@ -22,6 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "fluidable": "~1.1.3"
+    "fluidable": "~1.1.3",
+    "modernizr": "~2.8.3"
   }
 }
