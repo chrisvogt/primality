@@ -9,8 +9,10 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="components/fluidable/fluidable-min.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="components/fluidable/fluidable-min.css">
+        <link rel="stylesheet" href="components/animate.css/animate.min.css">
 
         <script src="components/modernizr/modernizr.js"></script>
     </head>
@@ -44,8 +46,16 @@
 
     	</div>
 
+        <script src="components/jquery/dist/jquery.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script>
+            $( document ).ready(function() {
+                console.log( "ready!" );
+                $( ".card" ).click(handleClick);
+            });
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

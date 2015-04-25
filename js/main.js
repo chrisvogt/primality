@@ -10,14 +10,20 @@ function buildTable(floor, ceiling) {
     for (var i = floor; i < ceiling; i++) {
         var container = document.getElementById("num-table");
         var content = document.createElement("div");
-        content.setAttribute('class', 'col-mb-2 col-3 col-dt-3');
+        content.setAttribute('class', 'col-mb-2 col-3 col-dt-3 card');
         content.innerHTML = '<p>' + i + '</p>';
         container.appendChild(content);
     }
 }
-function handleClick(num) {
-    // if num is prime
-    // add the 'prime' class
-    // if not, darken and shake the element
+/**
+ * Determines if selection is correct or not.
+ */
+function handleClick() {
+    var num = $(this).text();
+    if ( isPrime(num) ) {
+        $(this).addClass( "prime correct animated bounce" );
+    } else {
+        $(this).addClass( "false animated shake" );
+    }
 }
 buildTable(0, 50);
