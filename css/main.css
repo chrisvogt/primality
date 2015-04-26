@@ -165,6 +165,7 @@ body {
 @media only screen and (max-width: 768px) {
     .card p {
         text-align: center;
+        padding: 12px 8px;
     }
 }
 @media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {}
