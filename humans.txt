@@ -1,15 +1,5 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* TEAM */
 
-# TEAM
-
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+  Name: CJ Vogt
+  Site: http://www.chrisvogt.me
+  Location: Phoenix, AZ
