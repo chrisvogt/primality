@@ -22,6 +22,12 @@ function handleClick() {
     var num = $(this).text();
     if ( isPrime(num) ) {
         $(this).addClass( "prime correct animated tada" );
+        $.amaran({
+            'message'           :'+1 point',
+            'cssanimationIn'    :'bounceInRight',
+            'cssanimationOut'   :'rollOut',
+            'position'          :'bottom right'
+        });
     } else {
         $(this).addClass( "false animated shake" );
     }
@@ -39,3 +45,7 @@ $( "#brief a" ).hover(
     $( this ).removeClass( "animated infinite pulse" );
   }
 );
+
+$( document ).ready(function() {
+    $( ".card" ).click(handleClick);
+});
