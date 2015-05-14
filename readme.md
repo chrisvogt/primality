@@ -1,6 +1,6 @@
 # HTML5 Primality Game
 
-[![Code Climate](https://codeclimate.com/github/chrisvogt/JS-Primality-Experiment/badges/gpa.svg)](https://codeclimate.com/github/chrisvogt/JS-Primality-Experiment) [![GitHub license](https://img.shields.io/github/license/chrisvogt/JS-Primality-Experiment.svg)]() <img src="screenshot.gif" alt="HTML5 Primality Game" width="320" align="right" />
+[![Code Climate](https://codeclimate.com/github/chrisvogt/JS-Primality-Experiment/badges/gpa.svg)](https://codeclimate.com/github/chrisvogt/JS-Primality-Experiment) [![GitHub license](https://img.shields.io/github/license/chrisvogt/JS-Primality-Experiment.svg)]() <img src="screenshot.gif" alt="HTML5 Primality Game" width="320" align="right" /> [![Build Status](https://travis-ci.org/chrisvogt/JS-Primality-Experiment.svg?branch=gh-pages)](https://travis-ci.org/chrisvogt/JS-Primality-Experiment)
 
 A browser-based numbers game in HTML5 and JavaScript. Tests your skill at identifying prime numbers in a given range.
 
