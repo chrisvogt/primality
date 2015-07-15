@@ -14,4 +14,5 @@ This project uses [Bower](http://bower.io) for front-end dependencies. After clo
 
 This experiment is released under the [MIT License](http://opensource.org/licenses/MIT).
 
-<img src="http://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg" alt="Made with jQuery" height="70" align="right" /> <img src="http://bower.io/img/bower-logo.svg" alt="Made with Bower" height="70" align="right" />
+___
+<img src="http://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg" alt="Made with jQuery" height="70" align="right"> <img src="http://bower.io/img/bower-logo.svg" alt="Made with Bower" height="70" align="right"> <img src="https://cdn.rawgit.com/jekyll/brand/master/jekyll-logo-light-transparent.png" alt="Jekyll logo" height="70" align="right"> <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="Made with Ruby" height="70" align="right">
